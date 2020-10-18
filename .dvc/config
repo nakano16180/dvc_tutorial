@@ -4,4 +4,5 @@
     url = /tmp/dvc-storage
 ['remote "newremote"']
     url = s3://dvcstorage
-    endpointurl = https://localhost:9000
+    endpointurl = http://localhost:9000
+    use_ssl = False
